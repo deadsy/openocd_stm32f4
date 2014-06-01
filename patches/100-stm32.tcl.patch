@@ -1,0 +1,7 @@
+--- tcl/chip/st/stm32/stm32.tcl	2014-05-31 18:21:30.000000000 -0700
++++ tcl/chip/st/stm32/stm32.tcl	2014-05-31 18:21:44.000000000 -0700
+@@ -5,3 +5,4 @@
+ 
+ source [find chip/st/stm32/stm32_regs.tcl]
+ source [find chip/st/stm32/stm32_rcc.tcl]
++source [find chip/st/stm32/stm32_tim.tcl]
